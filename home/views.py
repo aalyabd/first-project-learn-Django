@@ -2,9 +2,9 @@ from django.shortcuts import render
 from django.http import HttpResponse
 # Create your views here.
 
-def homepage(requests):
-    return render(requests,'home.html')
+def index(requests):
+    return render(requests,'home/index.html')
 
-def download(requests):
-    return render(requests,'download.html')
+def about(requests):
+    return render(requests,'home/about.html')
 
